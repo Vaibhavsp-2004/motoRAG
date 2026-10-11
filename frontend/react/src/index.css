@@ -1,0 +1,34 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom colors (referencing tailwind.config) */
+:root {
+  --color-primary-bg: #101114;
+  --color-secondary-bg: #191B20;
+  --color-card-bg: #22252B;
+  --color-accent: #FF6B2C;
+  --color-secondary-accent: #A8ADB5;
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A1A6AF;
+}
+
+html, body, #root {
+  height: 100%;
+  background-color: var(--color-primary-bg);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Scrollbar styling for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-secondary-bg);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-accent);
+  border-radius: 4px;
+}
