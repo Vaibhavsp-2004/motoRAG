@@ -1,0 +1,8 @@
+{
+  "name": "motoRAG",
+  "description": "AI-powered motorcycle recommendation and review assistant grounded in real YouTube motorcycle reviews and specifications.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
